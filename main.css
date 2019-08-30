@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Cardo', serif;
     color: white;
+    -webkit-overflow-scrolling: touch;
 }
 
 a {
@@ -54,11 +55,12 @@ a {
 
 .inline-msg {
     display: inline-block;
+    font-size: 18px;
 }
 
 #acm {
     display: inline-block;
-    height: 30px;
+    height: 40px;
 }
 
 /*
@@ -133,6 +135,11 @@ a {
     width: 56px;
     height: 56px;
     background-color: #44488a;
+}
+
+.greyed-out {
+    background-color: #272a68;
+    color: #a0a0a0;
 }
 
 #event-arrow {
