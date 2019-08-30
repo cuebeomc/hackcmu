@@ -1,0 +1,414 @@
+html {
+    background-color: #fea49f;
+}
+
+body {
+    font-family: 'Cardo', serif;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#container {
+    margin: 50px auto;
+    width: 845px;
+    height: 600px;
+    background-color: #101357;
+
+    display: flex;
+    align-items: center;
+}
+
+/*
+ * Sidebar related CSS 
+ */
+
+#sidebar {
+    width: 240px;
+    padding: 40px;
+}
+
+#welcome {
+    margin-top: 10px;
+}
+
+#logo {
+    width: 230px;
+    border-radius: 100%;
+    border: 5px solid grey;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+#presented {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.inline-msg {
+    display: inline-block;
+}
+
+#acm {
+    display: inline-block;
+    height: 30px;
+}
+
+/*
+ * CSS for line separator
+ */
+#separator {
+    width: 1px;
+    height: 80%;
+    background-color: #40415f;
+}
+
+/*
+ * Content related CSS
+ */
+
+#main-body {
+    width: 480px;
+    height: 480px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#calendar-month {
+    width: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 2px;
+}
+
+#calendar-event{
+    position: relative;
+    top: -32;
+    left: 302;
+    font-size: 10px;
+    width: 116px;
+    background-color: #fea49f;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+#event-name {
+    padding-left: 8px;
+}
+
+#calendar-week {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.date {
+    padding: 3px 0px 0px 5px;
+}
+
+.day-of-week {
+    padding: 18px 5px 0px 0px;
+    text-align: right;
+    font-size: 9px;
+}
+
+.grid-day {
+    margin: 0px 2px;
+    width: 56px;
+    height: 56px;
+    background-color: #44488a;
+}
+
+#event-arrow {
+    background-color: #2d3069;
+}
+
+#event-separator {
+    height: 1px;
+    width: 450px;
+    background-color: #44488a;
+}
+
+#arrow {
+    background: #2d3069;
+    position: relative;
+    top: -6px;
+    left: 369px;
+    border: 1px solid #44488a;
+    border-width: 1px 1px 0 0;
+    transform: rotate(-45deg);
+    width: 10px;
+    height: 10px;
+}
+
+#event {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #2d3069;
+    width: 450px;
+    height: 330px;
+}
+
+#event-body {
+    text-align: left;
+    width: 400px;
+    height: 280px;
+    background-color: #2d3069;
+    padding: 0px 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#event-body h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#event-body h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 10px 0px 5px;
+    margin: 0;
+}
+
+#event-body h4 {
+    font-family: 'Lato', sans-serif;
+    padding: 5px 0px 5px;
+    margin: 0;
+}
+
+#sponsor-text {
+    padding-top: 5px;
+}
+
+#event-body p {
+    margin: 0;
+}
+
+#details-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 1px solid #101357
+}
+
+#schedule-container {
+    width: 100%;
+    display: flex;
+}
+
+#sponsor-logos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#sponsor-logos img {
+    padding: 8px;
+}
+
+#aptiv {
+    height: 18px;
+}
+
+#asml {
+    height: 20px;
+}
+
+#bloomberg {
+    height: 25px;
+}
+
+#gm {
+    height: 50px;
+}
+
+#google {
+    height: 38px;
+}
+
+#microsoft {
+    height: 36px;
+}
+
+#sandia {
+    height: 47px;
+}
+
+#riotgames {
+    height: 23px;
+}
+
+#deshaw {
+    height: 22px;
+}
+
+#scm {
+    height: 40px;
+}
+
+.schedule {
+    width: 50%; 
+}
+
+.nav-btn {
+    font-size: 12px;
+    padding: 8px 0px;
+    width: 25%;
+    text-align: center;
+    background-color: #44488a;
+    border: 1px solid #090c38;
+}
+
+.nav-btn:hover {
+    background-color: #313364;
+    cursor: pointer;
+}
+.answer {
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 860px) {
+    body {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #main-body {
+        min-height: 100vh;
+    }
+
+    #scroll-arrow {
+        width: 10px;
+        height: 10px;
+        border: 2px solid #bbbbd6;
+        border-width: 0px 0px 1px 1px;
+        transform: rotate(-45deg);
+    }
+    #scroll-arrow:hover {
+        cursor: pointer;
+    }
+
+    #sidebar-container {
+        min-height: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sidebar {
+        margin-top: -60px;
+    }
+
+    #separator {
+        display: hidden;
+        height: 1px;
+        margin-bottom: 20px;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0;
+        overflow: scroll;
+    }
+
+    #calendar {
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #main-body {
+        width: 100%;
+        padding: 0;
+    }
+
+    #event {
+        width: 100%;
+        min-height: 60vh;
+        height: 60vh;
+    }
+
+    #event-arrow {
+        width: 100%;
+    }
+
+    #event-separator {
+        width: 100%;
+    }
+
+    #calendar {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    #event-body {
+        padding: 0;
+        width: 90%;
+        height: 85%;
+    }
+
+    #schedule-container {
+        display: block;
+        width: 100%
+    }
+
+    .schedule {
+        width: 100%;
+    }
+
+    #arrow {
+        left: calc(6 * (12vw + 4.5px));
+    }
+
+    .grid-day {
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .date {
+        font-size: 10px;
+        padding: 2px 0px 0px 4px;
+    }
+
+    .day-of-week {
+        padding: 0px 0px 0px 4px;
+        text-align: left;
+    }
+
+    #calendar-event {
+        top: -11px;
+        left: calc(5 * (12vw + 4px) + 2px);
+        width: calc(24vw + 4px);
+        font-size: 9px;
+    }
+
+    #event-name {
+        padding-left: 3px;
+    }
+}

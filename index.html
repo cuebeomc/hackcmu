@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>HackCMU 2019</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <link href="https://fonts.googleapis.com/css?family=Cardo|Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/page.js/1.11.4/page.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="sidebar-container">
+                <div id="sidebar">
+                    <img id="logo" src="images/scotty-dog.png"/>
+                    <div id="welcome">Welcome to</div>
+                    <div id="name">HackCMU</div>
+                    <div id="presented"><div class="inline-msg">Presented by</div><a href="https://www.acmatcmu.org"><img id="acm" src="images/acm-logo.png"/></a></div>
+                </div>
+                <div id="scroll-arrow" onclick="scrollDown()"></div>
+            </div>
+            <div id="separator"></div>
+            <div id="main-body">
+                <div id="calendar">
+                    <div id="calendar-month">September</div>
+                    <div id="calendar-week-container">
+                        <div id="calendar-week">
+                            <div class="grid-day"><div class="date">8</div><div class="day-of-week">Sun</div></div>
+                            <div class="grid-day"><div class="date">9</div><div class="day-of-week">Mon</div></div>
+                            <div class="grid-day"><div class="date">10</div><div class="day-of-week">Tue</div></div>
+                            <div class="grid-day"><div class="date">11</div><div class="day-of-week">Wed</div></div>
+                            <div class="grid-day"><div class="date">12</div><div class="day-of-week">Thu</div></div>
+                            <div class="grid-day"><div class="date">13</div><div class="day-of-week">Fri</div></div>
+                            <div class="grid-day"><div class="date">14</div><div class="day-of-week">Sat</div></div>
+                        </div>
+                        <div id="calendar-event"><div id="event-name">HackCMU 2019</div></div>
+                    </div>
+                    <div id="event-arrow">
+                        <div id="event-separator"></div>
+                        <div id="arrow"></div>
+                    </div>
+
+                    <div id="event">
+                        <div id="event-body">
+                            <p>You've been invited to:</p>
+                            <h2>HackCMU 2019!</h2>
+                            
+                            <p>
+                            <br>
+                            Location: Rashid Auditorium, GHC 4401<br>
+                            Start: Friday, Sep 13, 5:00 PM<br>
+                            End: Saturday, Sep 14, 8:00 PM<br><br></p>
+
+                            <a href="https://www.acmatcmu.org/dashboard"><p>Register here!</p></a>
+                        </div>
+                        <div id="details-bar">
+                            <div class="nav-btn" onclick="show(this)" id="event-overview-btn">Overview</div>
+                            <div class="nav-btn" onclick="show(this)" id="schedule-btn">Full schedule</div>
+                            <div class="nav-btn" onclick="show(this)" id="faq-btn">FAQ</div>
+                            <div class="nav-btn" onclick="show(this)" id="sponsors-btn">Sponsors</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
