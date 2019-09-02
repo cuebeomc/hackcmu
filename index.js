@@ -15,7 +15,7 @@ var overviewText =
     <a href="https://www.acmatcmu.org/dashboard"><p>Register here!</p></a>`;
 
 var scheduleText = 
-    `<h2>Schedule of events</h2>
+    `<h2>Schedule of Events</h2>
     <div id="schedule-container">
         <div class="schedule">
             <h3>Friday, Sep 13</h3>
@@ -50,7 +50,7 @@ var faqText =
     <h4>Q: Where will this be held?</h4>
     <p class="answer">Saturday dinner, exhibitions, and closing will be in Simmons Auditorium at the Tepper Quad, but opening and all other meals will be in Rashid Auditorium at the Gates Hillman Center.</p>
     <h4>Q: Who can attend?</h4>
-    <p class="answer">Any current student at Carnegie Mellon is welcome to apply. HackCMU is a beginner-focused hackathon, and preference will be given to first years. More experienced hackers are encouraged to sign up as mentors.</p>
+    <p class="answer">Any student is welcome to apply. HackCMU is a beginner-focused hackathon, and preference will be given to first years. More experienced hackers are encouraged to sign up as mentors.</p>
     <h4>Q: I have another event during the weekend — can I miss part of the event?</h4>
     <p class="answer">Probably. Contact us at acm-exec[at]cs.cmu.edu for any specific concerns.</p>
     <h4>Q: How much does this cost?</h4>
@@ -59,6 +59,8 @@ var faqText =
     <p class="answer">Students of all skill levels are encouraged to attend, even if you’ve never written a line of code! Creative individuals of all kinds are welcome to apply — such as designers, ECE majors, statistics, etc. The only requirement is your attitude to learn!</p>
     <h4>Q: Are there teams? Do I need one to sign up!</h4>
     <p class="answer">Working as a team is highly encouraged, but not required. You are welcome to form teams ahead of the event, but there will also be team forming day-of the event!</p>
+    <h4>Q: How big can a team be?</h4>
+    <p class="answer">A team can have anywhere between 2 and 4 people.</div>
     <h4>Q: What are the rules? Can I work on my project ahead of time?</h4>
     <p class="answer">All work must be original, and you are not permitted to start building or designing your project until the event. Brainstorming ideas and forming teams beforehand is fine, though.</p>
     <h4>Any other questions, comments, or concerns?</h4><p class="answer">Email us at acm-exec[at]cs.cmu.edu.</p>
