@@ -32,6 +32,8 @@ var scheduleText =
             <p>
             <h4>Morning:</h4>
             9:00 Breakfast<br>
+            10:30 Talk by ScottyLabs<br>
+            <p class="small">"How to Win at Career Fairs"</p>
 
             <h4>Afternoon:</h4>
             12:30 Lunch<br>

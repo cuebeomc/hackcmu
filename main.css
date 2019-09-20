@@ -294,6 +294,11 @@ a {
     padding-left: 20px;
 }
 
+.small {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 860px) {
     body {
         margin-top: 0px;
